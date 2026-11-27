@@ -1,0 +1,13 @@
+.git
+.github
+.gitignore
+README.md
+README.zh.md
+
+# Never send local certificates, requests or keys to the build context.
+**/*.pem
+**/*.crt
+**/*.csr
+**/*.key
+**/*.log
+.DS_Store
